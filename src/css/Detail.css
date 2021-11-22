@@ -1,0 +1,303 @@
+* {
+    -webkit-touch-callout: none; /* iOS Safari */
+    -webkit-user-select: none; /* Safari */
+    -khtml-user-select: none; /* Konqueror HTML */
+    -moz-user-select: none; /* Old versions of Firefox */
+    -ms-user-select: none; /* Internet Explorer/Edge */
+    user-select: none; /* Non-prefixed version, currently supported by Chrome, Opera and Firefox */
+  }
+
+.detail{
+    background-color: #d4d4daf6;
+}
+.left{
+ padding-top: 3em;
+ display: flex;
+ flex-direction: column;
+ align-items: center;
+ justify-content: center;
+}
+.back{
+    text-align: start;
+    padding-left: 10em;
+    cursor: pointer;
+    color: #6A4029;
+}
+.back img{
+    height: 3em;
+}
+
+.Card-d-g{
+    border-radius: 100%;
+    max-width: 19em;
+    height: 19em;
+}
+.Card-d-n{
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: 900;
+    font-size: 3em;
+    padding-top: 0.5em;
+    line-height: 1.3em;
+    text-align: center;
+    color: #000000;
+}
+.Card-d-p{
+    font-family: Poppins;
+    font-style: normal;
+    font-size: 1.5em;
+    text-align: center;
+    color: #000000;
+}
+.left .Tombol-d{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+.addcart{
+    width: 40%;
+    height: 3em;
+    background: #6A4029;
+    border-radius: 1em;
+    border-style: none;
+    color: white;
+}
+.askstaff{
+    width: 40%;
+    margin-top: 1em;
+    height: 3em;
+    background: #FFBA33;
+    border-radius: 1em;
+    border-style: none;
+    color: #6A4029;
+    font-weight: bolder;
+}
+.Card-detail{
+    background-color: #FFFFFF;
+    margin-top: 3em;
+    height: 30em;
+    width: 80%;
+    border-radius: 1em;
+    padding: 5em;
+    color: #6A4029;
+    text-align: start;
+}
+.ket-detail{
+    height: 10em
+}
+.size{
+    text-align: center;
+    color: black;
+    font-weight: bolder;
+    display: flex;
+    flex-direction: column;
+}
+.size2{
+    display: flex;
+    justify-content: center
+}
+
+.ket-size{
+    font-size: 1.5em;
+}
+.r{
+    width: 3em;
+    height: 3em;
+    padding-top: 0.7em;
+    margin-top: 2em;
+    margin: 1em;
+    background-color: #FFBA33;
+    color: black;
+    border-radius: 100%;
+    cursor: pointer;
+}
+.r:hover{
+    background-color: #6A4029;
+    color: white;
+}
+.ChooseDelive{
+    display: flex;
+    width: 80%;
+    justify-content: space-around;
+}
+.to-d{
+    border: 1px solid #9F9F9F;
+    width:25%;
+    border-radius: 0.5em;
+    padding: 0.3em;
+    color: #9F9F9F;
+    cursor: pointer;
+    font-family: Poppins;
+}
+.test22{
+    margin-top: 3em;
+    font-weight: bolder;
+    width: 70%;
+    justify-content: start;
+    padding-bottom: 1.5em;
+    /* background-color: blue; */
+}
+.to-d:hover{
+    background-color: #6A4029;
+    color: white;
+}
+
+.addc{
+    padding-top: 90px;
+    display: flex;
+    justify-content: space-around;
+
+}
+.addc2{
+    justify-content: space-around;
+    width: 50%;
+    background-color: white;
+    box-shadow: 1px 1px 10px #cccccc;
+    padding-left: 20px;
+    padding-top: 20px;
+    border-radius: 20px;
+    height: 150px;
+}
+.addc3{
+    justify-content: space-around;
+    width: 25%;
+    background-color: white;
+    box-shadow: 1px 1px 10px #cccccc;
+    padding-left: 20px;
+    padding-top: 20px;
+    border-radius: 20px;
+    height: 150px;
+}
+.addc2 h1{
+ text-align: start;
+ width: 90%;
+}
+
+.addc2 p{
+ text-align: start;
+}
+
+
+.test6{
+    background-color: #F8F8F8;
+    height: 10vh;
+    width: 100%;
+    margin-top: -5em;
+    color: white;
+}
+.Card-d-g-k{
+    width: 7em;
+    height: 7em;
+    border-radius: 100%;
+    text-align: start;
+}
+.tmbl-q{
+    border-radius: 100%;
+    background-color: bisque; 
+    width: 2.5em;
+    height: 2.5em;
+    color: #6A4029;
+    border-style: none;
+    font-weight: bolder;
+}
+.tmbl-q:hover{
+    background-color: #E7AA36;
+}
+
+.m-qty{
+    display: flex;
+    justify-content: space-around;
+    padding-top: 2em;
+}
+.Card-d-n-k{
+    font-size: 2em;
+    font-weight: bolder;
+    text-align: start;
+    font-family: Poppins;
+    padding-left: 1em;
+}
+.Card-d-q-k{
+    font-weight: bolder;
+    font-size: 1.5em;
+}
+.Card-d-s-k{
+    text-align: start;
+    font-family: Poppins;
+    padding-left: 2.3em;
+}
+.addc3{
+    padding-top: 1.5em;
+    font-size: 2em;
+    font-weight: bolder;
+    background-color: #E7AA36;
+    cursor: pointer;
+}
+.addc3:hover{
+    display: inline-block;
+    animation: bounce; /* referring directly to the animation's @keyframe declaration */
+    animation-duration: 1s;
+    background-color: #c5c2c2;
+}
+
+.loader {
+   border-radius: 100%;
+   height: 200px;
+   width: 200px;
+
+}
+.bl{
+    height: 70%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+@-webkit-keyframes spin {
+    0% { -webkit-transform: rotate(0deg); }
+    100% { -webkit-transform: rotate(360deg); }
+  }
+  
+@keyframes spin {
+0% { transform: rotate(0deg); }
+100% { transform: rotate(360deg); }
+}
+
+
+@media screen and (max-width: 430px) {
+    .Card-detail{
+        background-color: #FFFFFF;
+        margin-top: 3em;
+        height: 30em;
+        width: 90%;
+        border-radius: 1em;
+        padding: 5em;
+        color: #6A4029;
+        text-align: start;
+    }
+    .test22{
+        width: 100%;
+    }
+    .ChooseDelive{
+        width: 100%;
+        padding-bottom: 30px;
+    }
+    .to-d{
+        border: 1px solid #9F9F9F;
+        width:25%;
+        border-radius: 0.5em;
+        padding: 10px;
+        color: #9F9F9F;
+        font-size: 10px;
+        cursor: pointer;
+        font-family: Poppins;
+    }
+    .test6{
+        display: none;
+    }
+    .addc{
+        display: none;
+    }
+}

@@ -1,0 +1,325 @@
+.bgp{
+    background-image: url('../png/bgc.png');
+    height: 150vh;
+    background-size:cover;
+    background-repeat: no-repeat;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+}
+.title-p{
+    margin-bottom: 50px;
+    width: 80%;
+    justify-items: start;
+    font-family: Rubik;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 35px;
+    line-height: 50px;
+    text-align: start;
+    padding-left: 20px;
+    color: #FFFFFF;
+    text-shadow: 0px 6px 8px rgba(255, 255, 255, 0.26);
+}
+.pr{
+    width: 80%;
+    height:80%;
+}
+.ketprt{
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+}
+.ketprt p {
+    width: 119px;
+height: 38px;
+
+
+font-family: Poppins;
+font-style: normal;
+font-weight: bold;
+font-size: 25px;
+line-height: 37px;
+/* identical to box height */
+
+
+color: #4F5665;
+
+}
+.pen2{
+    width: 50px;
+    height: 50px;
+    cursor: pointer;
+}
+.card-profile{
+    height: 350px;
+    border-radius: 20px !important;
+    justify-content: center;
+    align-items: center;
+    border-bottom: #6A4029 20px solid !important;
+}
+.pprofile{
+    width: 170px;
+    height: 170px;
+    border-radius: 100%;
+}
+
+.pen{
+    width: 35px;
+    height: 35px;
+    margin-top: -30px;
+    margin-left: 90px;
+    cursor: pointer;
+}
+.displayName{
+    font-family: Rubik;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 20px;
+    line-height: 50px;
+    text-align: center;
+    color: #000000;
+}
+
+.card-contact{
+    height: 350px;
+    border-radius: 20px !important;
+    border-bottom: #6A4029 20px solid !important;
+
+}
+.prp{
+    height: 100%;
+}
+.emailp{
+    display: flex;
+    text-align: start;
+    margin-left: 20px;
+    flex-direction: column;
+    border-bottom: grey 1px solid;
+    color: gray;
+    font-family: Rubik;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 20px;
+
+}
+.emailp input{
+    border: none;
+    color: black;
+    outline: none;
+}
+.mobilep{
+    display: flex;
+    width: 95%;
+    text-align: start;
+    flex-direction: column;
+    border-bottom: grey 1px solid;
+    color: gray;
+    font-family: Rubik;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 20px;
+}
+.mobilep input{
+    border: none;
+    color: black;
+    outline: none;
+}
+.alamatp{
+    display: flex;
+    text-align: start;
+    margin-left: 20px;
+    flex-direction: column;
+    color: grey;
+    border-bottom: grey 1px solid;
+    font-family: Rubik;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 20px;
+}
+.alamatp input{
+    border: none;
+    color: black;
+    outline: none;
+}
+.card-detail{
+    height: 350px;
+    border-radius: 20px !important;
+    border-bottom: #6A4029 20px solid !important;
+
+}
+.tombol{
+    height:  350px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.titles{
+width: 330px;
+height: 60px;
+margin-bottom: 20px;
+font-family: Poppins;
+font-style: normal;
+font-weight: bold;
+font-size: 20px;
+line-height: 30px;
+text-align: center;
+color: #FFFFFF;
+text-shadow: 0px 6px 9px rgba(255, 255, 255, 0.21);
+}
+.save{
+    width: 330px;
+    height: 55px;
+    margin-bottom: 15px;
+    background: #6A4029;
+    border-radius: 20px;
+    text-align: center;
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 18px;
+    line-height: 27px;   
+    color: #FFFFFF; 
+    padding: 15px;
+    cursor: pointer;
+}
+.cancel{
+    width: 330px;
+    height: 55px;
+    margin-bottom: 15px;
+    background: #FFBA33;
+    border-radius: 20px;
+    text-align: center;
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 18px;
+    line-height: 27px;   
+    color: #6A4029;
+    padding: 15px;
+    cursor: pointer;  
+}
+.edit2{
+    width: 330px;
+    height: 55px;
+    margin-bottom: 15px;
+    background: white;
+    border-radius: 20px;
+    text-align: center;
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 18px;
+    line-height: 27px;   
+    color: #6A4029;
+    padding: 15px;
+    cursor: pointer;  
+}
+.logout{
+    width: 330px;
+    height: 55px;
+    margin-bottom: 15px;
+    background: white;
+    border-radius: 20px;
+    text-align: center;
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 18px;
+    line-height: 27px;   
+    color: #6A4029;
+    padding: 15px;
+    cursor: pointer;  
+    text-decoration: none;
+}
+.logout:hover{
+    background: rgba(163, 16, 16, 0.808);
+    color: white;
+}
+
+.ketprt2{
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+}
+.ketprt2 p {
+    width: 119px;
+    height: 38px;
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 25px;
+    line-height: 37px;
+    /* identical to box height */
+    color: #4F5665;
+
+}
+.gender{
+    text-align: start;
+    display: flex;
+    width: 90%;
+    margin-left: 20px;
+    font-size: 20px;
+    justify-content: space-between;
+}
+.gender input {
+    cursor: pointer;
+}
+.test{
+    background-color: #FFBA33;
+}
+@media only screen  and (max-width : 430px) {
+    .bgp{
+        background-image: url('../png/bgc.png');
+        height: 2000px;
+        background-size:cover;
+        background-repeat: no-repeat;
+        justify-content: start;
+        padding-top: 20px;
+        align-items: center;
+        display: flex;
+        flex-direction: column;
+    }
+    .card-contact{
+       display: flex;
+       flex-direction: column;
+       align-items: center;
+    }
+    .ketprt{
+        display: flex;
+        width: 100%;
+    }
+    
+    .prp{
+        height: 100%;
+        width: 90%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        
+    }
+    .emailp{
+        margin: 0;
+    }
+    .mobilep{
+        margin: 0;
+        width: 100%;
+    }
+    .alamatp{
+        margin: 0;
+    }
+    .card-detail{
+        height: 450px;
+        border-radius: 20px !important;
+        border-bottom: #6A4029 20px solid !important;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .detail-m{
+        width: 90%;
+    }
+
+}

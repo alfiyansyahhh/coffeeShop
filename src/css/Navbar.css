@@ -1,0 +1,192 @@
+@import url("https://fonts.googleapis.com/css2?family=Rubik:ital,wght@0,300;0,400;0,500;0,600;0,800;1,300;1,400;1,500&display=swap");
+
+
+.Navbar{
+    background-color: white;
+    box-shadow: 1px 1px 10px #cccccc;
+    padding: 1em;
+    justify-items: center;
+}
+.nvbr{
+    display: flex;
+    justify-content: space-between;
+}
+.l{
+    text-decoration: none;
+}
+.logo{
+    /* padding-left: 2em; */
+    text-align: start;  
+    display: flex;
+}
+.menub{
+    width: 10%;
+}
+.l {
+    text-decoration: none;
+    padding-top: 0.2em;
+    padding-left: 1em;
+}
+.l2 {
+    text-decoration: none;
+    font-family: Rubik;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 1em;
+    padding-top:  0.6em;
+    padding-left: 0.5em;
+    color: black;
+}
+.l2:hover{
+    color: #6A4029;
+}
+
+.Menu1{
+    text-align: center; 
+    padding: 0.7em;
+}
+.M1{
+    text-decoration: none;
+    padding: 1em;
+    font-family: Rubik;
+    font-style: normal;
+    font-size: 1rem;
+    line-height: 2em;  
+    color: #959595;
+}
+.M1:hover{
+    color: #6A4029;
+    font-weight:bolder;
+}
+.M2{
+    text-decoration: none;
+    padding: 30px;
+    font-family: Rubik;
+    font-style: normal;
+    font-size: 16px;
+    line-height: 30px;  
+    color: #959595;
+}
+.M2:hover{
+    color: #6A4029;
+    font-weight:bolder;
+}
+
+.Menu2{
+    text-align: end;
+    padding: 10px;
+}
+.Loginn-nav{
+    font-family: Rubik;
+    font-style: normal;
+    padding: 30px;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 30px;
+    color: #0B132A;
+    text-decoration: none;
+}
+.Loginn-nav:hover{
+    color: #6A4029;
+}
+.Register{
+    font-family: Rubik;
+    font-style: normal;
+    padding: 10px;
+    padding-left: 30px;
+    padding-right: 30px;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 30px;
+    color: #6A4029;
+    text-decoration: none;
+    background-color: #FFBA33;
+    border-radius: 50px;
+    border-style: none;
+}
+.Register:hover{
+    color: white;
+    background-color: #6A4029;   
+}
+.mr-2{
+  display: none;
+}
+.nav-user{
+    display: flex;
+    justify-content: space-around;
+}
+.testss{
+    background-color: #EFEEEE;
+    border-radius: 1em;
+    /* width: 10em;
+    height: 2em; */
+    width: 160px;
+}
+.testss img{
+    margin-top: -0.21em;
+}
+.testss input{
+    padding-left: 1em;
+    width: 8em;
+    margin-top: 0.21em;
+    padding-right: 1em;
+    background-color: transparent;
+    border-style: none;
+    outline:none;
+}
+.chat{
+    cursor: pointer;
+}
+.fprofile{
+    border-radius: 100%;
+    width: 30px;
+    height: 30px;
+    cursor: pointer;
+}
+
+
+@media screen and (max-width: 430px){
+    .Navbar{
+        width: 100%
+    }
+    .mr-2{
+        display: flex;
+        margin-left: 250px;
+        margin-top: 5px;
+        border: none;
+      }
+    .Menu1{
+        display: none;
+    }
+    .Menu2{
+        display: none;
+    }
+}
+
+
+@media screen and (max-width: 768px) and (min-width: 767px){
+    .M1{
+        text-decoration: none;
+        padding: 10px;
+        font-family: Rubik;
+        font-style: normal;
+        font-size: 16px;
+        line-height: 30px;  
+        color: #959595;
+
+    }
+    .Login{
+        padding: 0;
+        margin-right: 10px;
+    }
+    .Register{
+        padding: 10px;
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+    .logo .l2 {
+        padding-left: 10px;
+        font-size: 15px
+    }
+
+}

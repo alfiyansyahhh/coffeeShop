@@ -1,0 +1,305 @@
+@import url('https://fonts.googleapis.com/css2?family=Rubik:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,800;1,900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+.Card-p-g img{
+    border-radius: 100%;
+    width: 120px;
+    height: 115px;
+    margin-top: -80px;
+}
+.Card-p-g img:hover {
+    display: inline-block;
+    margin-top: -80px;
+    animation: bounce; /* referring directly to the animation's @keyframe declaration */
+    animation-duration: 1s; /* don't forget to set a duration! */
+}
+
+.Product{
+    display: flex;
+    justify-content: space-around;
+    max-height: 53em;
+    overflow-y: scroll;
+    overflow: overlay;
+}
+.Product::-webkit-scrollbar {
+    width: 5px;
+    height: 1px !important;
+}
+  
+.Product::-webkit-scrollbar-thumb {
+    background: rgba(90, 90, 90);
+    box-shadow: 0px 30px 60px rgba(156, 156, 156, 0.37);
+    height: 10px;
+    max-height: 20px !important;
+}
+  
+.Product::-webkit-scrollbar-track {
+    background: rgba(156, 156, 156, 0.37);
+}
+.Product-cards{
+    width: 87%;
+}
+
+.Product-cards .Card-p{ 
+    background: #FFFFFF;
+    box-shadow: 0px 30px 60px rgba(156, 156, 156, 0.37);
+    border-radius: 30px;
+    border-radius: 30px;
+    margin-top: 6em;
+    margin-bottom: 2em;
+    height: 13em;
+    width: 10.3em;
+    cursor: pointer;
+}
+.Product-cards .Card-p:hover{ 
+    border: 1px solid #6A4029;
+}
+.Card-p-n{
+    font-family: Rubik;
+    font-style: normal;
+    font-weight: 900;
+    font-size: 1.4rem;
+    line-height: 101.34%;
+    justify-items: center;
+    /* background-color: darkgoldenrod; */
+    min-height: 4em;
+    padding-top: 0.5em;
+    text-align: center;
+    color: #000000;
+}
+.Card-p-p{
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 1em;
+    line-height: 2em;
+    text-align: center;
+    color: #6A4029;
+}
+.Menu-p{
+    display: flex;
+    justify-content: space-around;
+    padding-top: 1.5em;
+    cursor: pointer;
+}
+.Menu-p p{
+    font-family: Rubik;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 1.3em;
+    line-height: 24px;
+    color: #9F9F9F;
+    border-bottom: 3px solid transparent;
+}
+.Menu-p .p1{
+    color: #6A4029;
+    border-bottom: 3px solid #6A4029;
+}
+.Menu-p p:hover{
+    color: #6A4029;
+    border-bottom: 3px solid #6A4029;
+}
+.MainProduct{
+    border-left: 2px solid  rgba(156, 156, 156, 0.37);  
+}
+
+.Title-promo{
+    padding-top: 1.5em;
+    color: #6A4029;
+    font-weight: bolder;
+}
+.Promo-card{
+justify-content: center !important;
+align-items: center !important;
+}
+
+.Promo-card .Card-pr{
+    width: 100%;
+    height: 6.3em;
+    margin-top: 1em;
+    border-radius: 20px;
+    display:flex;   
+    cursor: pointer;
+}
+.green{
+    background-color: #88B788;
+}
+.yellow{
+    background-color: #F5C361
+}
+.Brown{
+    background-color: #C59378;
+}
+.Promo-card .Card-pr:hover{
+    background-color:bisque
+}
+.Card-pr-g{
+    font-size: 0.9em;
+    max-height: 6em;
+}
+.Card-pr-g img{
+    height: 6em;
+    padding-top: 1em;
+}
+.ket-p{
+    padding-top: 1.3em;
+    max-height: 6em;
+    font-size: 0.8em;
+    max-width: 17em;
+    text-align: start;
+}
+.Applay-coupon{
+    width: 19em;
+    height: 6.3em;
+    height: 3em;
+    margin-top: 3em;
+    background: #6A4029;
+    color: white;
+    border-radius: 1em;
+    border-style: none;
+}
+.Applay-coupon:hover{
+    background-color: #FFBA33;
+    color: #6A4029;
+}
+.Terms{
+    margin-top: 4em;
+    text-align: start;
+    list-style: none;
+    font-size: 0.8em;
+}
+
+@media screen and (max-width: 375px) {
+    .Promo-card{
+        height: 120px;
+        overflow-y: scroll;
+        justify-content: space-around;
+        padding-left: 30px;
+    }
+    .Promo-card .Card-pr{
+        min-width: 300px;
+        flex-wrap: wrap;
+    }
+    .p1{
+        font-size: 1em;
+    }
+    .Menu-p p{
+        font-family: Rubik;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 12px;
+        line-height: 24px;
+        color: #9F9F9F;
+        border-bottom: 3px solid transparent;
+    }
+    .Product-cards{
+        width: 100%;
+    }
+    .Product-cards .Card-p{ 
+        background: #FFFFFF;
+        box-shadow: 0px 30px 60px rgba(156, 156, 156, 0.37);
+        border-radius: 30px;
+        border-radius: 30px;
+        margin-top: 6em;
+        margin-bottom: 2em;
+        height: 12em;
+        width: 9.3em;
+        cursor: pointer;
+    }
+    .Product-cards .Card-p:hover{ 
+        border: 1px solid #6A4029;
+    }
+    .Card-p-n{
+        font-family: Rubik;
+        font-style: normal;
+        font-weight: 900;
+        font-size: 1.4rem;
+        line-height: 101.34%;
+        justify-items: center;
+        /* background-color: darkgoldenrod; */
+        min-height: 3em;
+        padding-top: 0.5em;
+        text-align: center;
+        color: #000000;
+    }
+    .Card-p-p{
+        font-family: Poppins;
+        font-style: normal;
+        font-weight: bold;
+        font-size: 1em;
+        line-height: 2em;
+        text-align: center;
+        color: #6A4029;
+    }
+}
+
+.f-addproduct {
+    text-align: start;
+}
+.f-addproduct label{
+    padding-top: 20px;
+}
+.f-addproduct input{
+    background: #FFFFFF;
+    border: 1px solid #4f566562;
+    box-sizing: border-box;
+    border-radius: 10px;
+    height: 3.5em;
+    padding-left: 1.3em;
+    padding-bottom: 0.6em;
+    box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075), 1px 1px 10px #cccccc;
+}
+.submitadd{
+    margin-top: 20px;
+}
+.silang{
+    text-align: end;
+    margin-top: 40px;
+}
+.silang img{
+    width: 30px;
+    cursor: pointer;
+}
+
+.selectcategory{
+    background: #FFFFFF;
+    border: 1px solid #4f566562;
+    box-sizing: border-box;
+    border-radius: 10px;
+    height: 3em;
+    padding-left: 1.3em;
+    padding-bottom: 0.6em;
+    box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075), 1px 1px 10px #cccccc;
+}
+
+.ketadd{
+    background: #FFFFFF;
+    border: 1px solid #4f566562;
+    box-sizing: border-box;
+    border-radius: 20px;
+    height: 5.5em;
+    padding-left: 1.3em;
+    padding-bottom: 0.6em;
+    box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075), 1px 1px 10px #cccccc;
+}
+.addp{
+    list-style: none;
+    text-decoration: none;
+    color: #959595;
+}
+.addp:hover{
+    color: #6A4029;
+}
+
+@media screen and (max-width: 430px) {
+    .Menu-p p{
+        font-family: Rubik;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 0.8em;
+        line-height: 24px;
+        color: #9F9F9F;
+        border-bottom: 3px solid transparent;
+    }
+}
