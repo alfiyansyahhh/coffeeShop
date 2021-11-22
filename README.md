@@ -74,8 +74,6 @@ Simple responsive website using html and css. This is a shopping website there a
 
 *  axios: "^0.23.0"
 *  bootstrap: "^5.1.3"
-*  chart.js: "^3.5.1"
-*  react-chartjs-2: "^3.1.1"
 *  react-redux: "^7.2.5"
 *  reactstrap: "^8.10.0"
 *  redux: "^4.1.1"
