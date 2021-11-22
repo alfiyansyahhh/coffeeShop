@@ -1,0 +1,113 @@
+.bge{
+    background-image: url('https://i.postimg.cc/pXbJnqJh/nathan-dumlao-XOh-I-k-W-Ta-M-unsplash.jpg');
+    height: 110vh;
+    background-size: cover;
+}
+.edit-title{
+    font-family: Rubik;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 1.5em;
+    line-height: 41px;
+    color: #6A4029;
+    cursor: pointer;
+    text-align: center;
+    padding-top: 0.5em;
+}
+
+.fedit{
+    justify-content: center;
+    display: flex;
+}
+.edit{
+    width: 70%;
+    justify-content: center;
+    text-align: start;
+}
+.f-editproduct label{
+    padding-top: 20px;
+    font-family: Rubik;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 1em;
+    line-height: 24px;
+    color: #4F5665;
+}
+
+.f-editproduct input{
+    background: #FFFFFF;
+    border: 1px solid #4f566562;
+    box-sizing: border-box;
+    border-radius: 10px;
+    height: 3.5em;
+    padding-left: 1.3em;
+    padding-bottom: 0.6em;
+    box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075), 1px 1px 10px #cccccc;
+}
+.tfe{
+    border-style: none;
+    width:25%;
+    border-radius: 0.5em;
+    padding: 0.3em;
+    cursor: pointer;
+    font-family: Poppins;
+    margin-top: 20px;
+    margin-right: 20px;
+    background-color: #6A4029;
+    color: white;
+}
+.tfe:hover{
+    background-color: #412415;
+    color: white;
+}
+.sbt{
+    width:25%;
+    border-radius: 0.5em;
+    padding: 0.3em;
+    border-style: none;
+    cursor: pointer;
+    font-family: Poppins;
+    margin-top: 20px;
+    margin-right: 20px;
+    background-color: #FFBA33;
+    color: #6A4029;
+}
+.sbt:hover{
+    display: inline-block;
+    animation: pulse; /* referring directly to the animation's @keyframe declaration */
+    animation-duration: 2s; /* don't forget to set a duration! */
+    background-color: #ecae31;
+}
+.dte{
+    border: 1px solid black;
+    margin-left: 450px;
+    text-align: center;
+    margin-top: -33px !important;
+    background-color: rgb(165, 7, 7);
+    color: white;
+    border-radius: 0.5em;
+    padding: 0.3em;
+    border-style: none;
+    cursor: pointer;
+    font-family: Poppins;
+    margin-top: 20px;
+    width: 15%;
+}
+.picture{
+    border-radius: 100%;
+    margin-top: -5px;
+}
+#file{
+    background: none;
+    border: none;
+    padding: none;
+    margin-top: 50px;
+    box-sizing: border-box;
+    border-radius: none;
+    height: none;
+    padding-left: none;
+    padding-bottom: none;
+    box-shadow: none;
+}
+
+

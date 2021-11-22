@@ -1,0 +1,22 @@
+.bg{
+    background-image: url('https://i.postimg.cc/FsRnDPJP/nathan-dumlao-c2-Y16t-C3y-O8-unsplash.jpg');
+    height: 110vh;
+    background-size: cover;
+}
+
+.picture{
+    border-radius: 100%;
+    margin-top: -5px;
+}
+#file{
+    background: none;
+    border: none;
+    padding: none;
+    margin-top: 50px;
+    box-sizing: border-box;
+    border-radius: none;
+    height: none;
+    padding-left: none;
+    padding-bottom: none;
+    box-shadow: none;
+}
