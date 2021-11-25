@@ -11,7 +11,7 @@ import Navbar from '../components/Navbar';
 import '../css/profiile.css';
 import user from '../redux/actions/users';
 import pen from '../png/penedit.svg';
-import defaultg from '../png/images.jpg'; 
+const defaultg = 'https://alfiyansyahhh.skom.id/gambar/images.jpg'; 
 
 const Profile = function () {
   const history = useHistory();

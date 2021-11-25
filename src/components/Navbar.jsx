@@ -5,9 +5,9 @@ import Humberger from '../svg/hamburger-menu.svg'
 import { Row, Col } from 'reactstrap';
 import React, { useState } from 'react';
 import { Collapse, Navbar, Nav, Container} from 'reactstrap';
-import chat from '../png/chat (1) 1.png'
-import seacrh from '../png/Vector (5).png'
 import {useHistory} from 'react-router-dom'
+const chat = 'https://alfiyansyahhh.skom.id/gambar/chat (1) 1.png'
+const seacrh = 'https://alfiyansyahhh.skom.id/gambar/Vector (5).png'
 
 
 const Navbar1 = (props) => {

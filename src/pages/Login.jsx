@@ -11,10 +11,10 @@ import '../css/Login.css'
 import Footer from '../components/Footer'
 import {Link} from 'react-router-dom'
 import Logo from '../coffee 1.png'
-import Google from '../png/google-logo-png-suite-everything-you-need-know-about-google-newest-0 2.png'
 import { useState } from 'react'
 import {useHistory} from 'react-router-dom'
 import user from '../redux/actions/users'
+const Google = 'https://alfiyansyahhh.skom.id/gambar/google-logo-png-suite-everything-you-need-know-about-google-newest-0 2.png'
 
 const Login = () => {
 
@@ -34,16 +34,6 @@ const Login = () => {
     const login = (e) => {
         e.preventDefault();
         user.LOGIN(users).then((response) => {
-            console.log(response)
-            localStorage.setItem("token", response.data.token)
-            const users = response.data.user
-            console.log(users)
-            const id = users.id
-            const level = users.level
-            const picture = users.picture
-            localStorage.setItem("idUser", id)
-            localStorage.setItem('level', level)
-            localStorage.setItem('picture', picture)
             history.push(`/product`)
         }).catch((err) => {
             alert("username/password salah")
@@ -53,9 +43,7 @@ const Login = () => {
     return(
         <div>  
             <div className="loginb">
-                <div className="Bg"> 
-                s
-                </div>
+                <div className="Bg"></div>
                 <div className="Main-Login" >
                     <div className="Nav-Login">
                         <div >
@@ -102,7 +90,7 @@ const Login = () => {
                     </div>
                 </div>
             </div>
-                <Footer /> 
+            <Footer /> 
         </div>
     )
 }

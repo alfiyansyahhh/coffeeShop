@@ -2,9 +2,10 @@ import '../css/Footer.css'
 import {  Row, Col} from 'reactstrap';
 import {Link} from 'react-router-dom'
 import Logo from '../coffee 1.png'
-import fb from '../png/fb.png'
-import twt from '../png/twt.png'
-import ig from '../png/ig.png'
+const fb = 'https://alfiyansyahhh.skom.id/gambar/fb.png'
+const twt = 'https://alfiyansyahhh.skom.id/gambar/twt.png'
+const ig = 'https://alfiyansyahhh.skom.id/gambar/ig.png'
+
 const Footer = () => { 
     return(
             <div className="Footer">

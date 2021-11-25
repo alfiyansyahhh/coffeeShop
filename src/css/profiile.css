@@ -1,5 +1,5 @@
 .bgp{
-    background-image: url('../png/bgc.png');
+    background-image: url('https://alfiyansyahhh.skom.id/gambar/bgc.png');
     height: 150vh;
     background-size:cover;
     background-repeat: no-repeat;
@@ -272,7 +272,7 @@ text-shadow: 0px 6px 9px rgba(255, 255, 255, 0.21);
 }
 @media only screen  and (max-width : 430px) {
     .bgp{
-        background-image: url('../png/bgc.png');
+        background-image: url('https://alfiyansyahhh.skom.id/gambar/bgc.png');
         height: 2000px;
         background-size:cover;
         background-repeat: no-repeat;

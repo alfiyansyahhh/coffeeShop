@@ -1,10 +1,11 @@
 import axios from 'axios'
 import Get from '../helper/env'
-import { token } from '../helper/token'
 
 const Transaction = {
 
     ACTION_ADD_TRANSACTION : (data) => {
+        const token = localStorage.getItem('token')
+        console.log(token, 'ini token')
         const headers = {
             token
         }
@@ -20,6 +21,8 @@ const Transaction = {
         })
     },
     ACTION_GET_TRANSACTION : () => {
+        const token = localStorage.getItem('token')
+        console.log(token, 'ini token')
         const headers = {
             token
         }
@@ -42,6 +45,8 @@ const Transaction = {
         }
     },
     ACTION_GET_DETAIL_TRANSACTION : (id) => {
+        const token = localStorage.getItem('token')
+        console.log(token, 'ini token')
         const headers = {
             token
         }

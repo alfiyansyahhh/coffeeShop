@@ -107,6 +107,13 @@ const Cart = {
             })
         }
     },
+    ACTION_RESET_CART : () => {
+        return(dispatch) => {
+            dispatch({
+                type: 'RESET_CART'
+            })
+        }
+    }
 }
 
 export default Cart

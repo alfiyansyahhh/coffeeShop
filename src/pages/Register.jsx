@@ -10,10 +10,10 @@ import {
 import Footer from '../components/Footer'
 import {Link} from 'react-router-dom'
 import Logo from '../coffee 1.png'
-import Google from '../png/google-logo-png-suite-everything-you-need-know-about-google-newest-0 2.png'
 import { useState } from 'react'
 import {useHistory} from 'react-router-dom'
 import user from '../redux/actions/users'
+const Google = 'https://alfiyansyahhh.skom.id/gambar/google-logo-png-suite-everything-you-need-know-about-google-newest-0 2.png'
 
 const Register = () => {
     const [users, setData] = useState({

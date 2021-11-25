@@ -135,7 +135,6 @@ const Add = function () {
         <Footer />
       </Row>
     </Container>
-
   );
 };
 

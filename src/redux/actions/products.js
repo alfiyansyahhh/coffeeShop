@@ -1,10 +1,10 @@
 import axios from 'axios'
 import Get from '../helper/env'
-import { token } from '../helper/token'
 
 const product = {
     
     INSERT_PRODUCT : (data) => {
+        const token = localStorage.getItem('token')
         const headers = {
             "Content-Type" : "multipart/from-data",
             token
@@ -20,6 +20,7 @@ const product = {
     },
     
     UPDATE_PRODUCT : (data, id) => {
+        const token = localStorage.getItem('token')
         const headers = {
             "Content-Type" : "multipart/from-data",
             token
@@ -35,6 +36,7 @@ const product = {
     },
 
     DELETE_PRODUCT : (id) => {
+        const token = localStorage.getItem('token')
         const headers = {
             token
         }
@@ -86,6 +88,9 @@ const product = {
     },
     
     ACTION_GET_DETAIL_PRODUCT : (id) => {
+        console.log(id)
+        const token = localStorage.getItem('token')
+        console.log(token, 'ini token')
         const headers = {
             token
         }

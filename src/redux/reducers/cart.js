@@ -14,15 +14,8 @@ const cartReducer = (state=initialState, action) => {
             return { cart: action.payload }
         case `${Get.Min_Qty_Cart}`:
             return { cart: action.payload }
-        // case "SUBTOTAL":
-        //     return { ...state ,subtotal: action.payload }
-        // case "TAX":
-        //     return { ...state ,tax: action.payload }
-        // case "SHIPPING":
-        //     return { ...state ,shipping: action.payload }
-        // case "TOTAL":
-        //     return { ...state ,total: action.payload }
-    
+        case `RESET_CART`:
+            return { cart: [] }    
         default:
         return state
     }

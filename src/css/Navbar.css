@@ -6,6 +6,7 @@
     box-shadow: 1px 1px 10px #cccccc;
     padding: 1em;
     justify-items: center;
+    width: 100%;
 }
 .nvbr{
     display: flex;
