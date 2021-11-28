@@ -1,0 +1,82 @@
+.bgh{
+    background-image: url('https://alfiyansyahhh.skom.id/gambar/aaa.png');
+    height: 150vh;
+    background-size: cover;
+    background-repeat: no-repeat;
+ 
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+}
+.title-h{
+    width: 653px;
+    height: 83px;
+    font-family: Rubik;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 40px;
+    line-height: 47px;
+    text-align: center;
+    color: #FFFFFF;
+    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.8);
+    margin-top: 100px;
+}
+.cardHistory{
+    margin-top: 150px;
+    overflow-y: auto;
+    overflow-x: hidden;
+    height: 600px;
+}
+.Card-h{
+    background: #ffffffdc;
+    box-shadow: 0px 10px 40px rgba(0, 0, 0, 0.03);
+    border-radius: 20px !important;
+    margin-bottom: 20px;
+    height: 100px;
+    cursor: pointer;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.Card-h:hover{
+    background: #ffffff80; 
+}
+.Card-h-i{
+    text-align: center;
+}
+.Card-h-t{
+    width: 200px;
+    height: 30px;
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 20px;
+    line-height: 30px;
+    color: #6A4029;
+    text-align: start;
+    margin-left: 30px;
+}
+.Card-h-p{
+    text-align: start;
+    margin-left: 30px;
+}
+.cardhb{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 95%;
+}
+
+@media screen and (max-width: 430px) {
+    .title-h{
+        font-size: 20px;
+        width: 70%;
+    }
+    .cardHistory{
+        width: 100%;
+        
+    }
+    .Card-h{
+        width: 100%;
+    }
+}

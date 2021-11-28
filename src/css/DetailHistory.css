@@ -1,0 +1,41 @@
+.Card-his-g img{
+    width: 50px;
+    height: 50px;
+    border-radius: 100%;
+}
+.Card-his-n{
+    width: 246px;
+    height: 38px;
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 15px;
+    text-align: start;
+    line-height: 37px;  
+    color: #000000;
+}
+.Card-his-t{
+    text-align: start;
+}
+.Card-his-p{
+    text-align: start;
+}
+.Card-his-q{
+    text-align: start;
+    color:#6A4029;
+}
+.back2 p{
+    font-family: Rubik;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 30px;
+    text-align: end;
+    color: #6A4029;
+    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.8);
+    cursor: pointer;
+}
+.detailCh{
+    display: flex;
+    width: 80%;
+    align-items: center;
+}

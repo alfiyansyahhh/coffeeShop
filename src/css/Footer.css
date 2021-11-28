@@ -1,0 +1,125 @@
+.Footer{
+    display: flex;
+    justify-content: space-around;
+    background-color: #F8F8F8;
+    padding: 0;
+}
+.Footer2{
+    width: 90%;
+    padding: 90px;
+}
+.logo-f {
+    display: flex;
+    align-items: start;
+    justify-content: center;
+    width: 100%;
+    flex-direction: column;
+}
+.logoFooter{
+    width: 100%;
+    display: flex;
+    align-items: start;
+    justify-content: start;
+    padding-left: 30px;    
+}
+.ketLogoFooter{
+    font-family: Rubik;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    margin-left: 10px;
+    text-decoration: none;
+    color: #6A4029;
+}
+.ketLogoFooter:hover{
+    color: #6A4029;
+}
+.logo-f .l2{
+    text-decoration: none;
+    font-family: Rubik;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    padding-top: 10px;
+    padding-left: 20px;
+    color: black;
+} 
+.ket-f{
+    text-align: start;
+    padding: 30px;
+}
+.sosmed{
+    display: flex;
+    width: 50%;
+    margin-top: -10px;
+    justify-content: space-around;
+}
+.sosmed img{
+    cursor: pointer;
+}
+.sosmed img:hover{
+    background-color: #6A4029;
+    border-radius: 100%;
+}
+
+.Menu-f{
+    display: flex;
+    justify-content: end;
+}
+.Menu-f ul li{
+    text-decoration: none;
+    border: none;
+    text-align: start;
+    cursor: pointer;
+    background-color: #F8F8F8;
+
+}   
+.list-group-item{
+    width: 170px;
+}
+
+.Menu-f ul li:hover{
+    color: #6A4029;
+    font-weight: bold;
+}
+@media screen and (max-width: 430px) {
+    .Footer2{
+        padding: 0;
+    }
+    .logo-f {
+        width: 100%;
+        padding: 40px !important;
+       justify-content: center;
+    }
+    .Menu-f{
+        justify-content: center;
+        width: 100%;
+        padding-top: 20px !important;
+    }
+    .ket-f{
+        text-align: center;
+        padding: 0;
+        align-items: center;
+        justify-content: center;
+    }
+    .logo-f {
+        align-items: center;
+        justify-content: center;
+    }
+    .logoFooter{
+        align-items: center;
+        justify-content: center;
+        padding: 20px;  
+    }
+    .sosmed{
+        margin-top: 10px;
+    }
+    
+    .ketLogoFooter{
+        margin: 0;
+        padding-left: 20px;
+    }
+    .Menu-f ul li{
+        padding: 20px;
+    }
+}

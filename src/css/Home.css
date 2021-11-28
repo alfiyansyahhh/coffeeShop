@@ -1,0 +1,341 @@
+.Jumbotron{
+    padding-left: 30px;
+    display: flex;
+    justify-content: center;
+    background-image: url('../jumbo.png');
+    background-size: cover;
+    height: 600px;
+    width: 100%;
+}
+.Jumbotron2{
+    width: 85%;
+    justify-content: start;
+    align-items: start;
+    padding-top: 10px;
+    display: flex;
+    flex-direction: column;
+}
+.Jumbotron2 h1{
+    color: white;
+    text-align: start;
+    width:42%;
+    font-family: Rubik;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 40px;
+    line-height: 60px;
+    padding-top: 40px;
+}
+.Jumbotron2 p{
+    font-family: Rubik;
+    width:40%;
+    font-style: normal;
+    font-size: 20px;
+    line-height: 30px;  
+    color: #FFFFFF;
+    text-align: start; 
+}
+.GetStart{
+    width: 20%;
+    height: 60px;
+    background: #FFBA33;
+    border-radius: 10px;
+    padding: 17px;
+    font-family: Rubik;
+    font-style: normal;
+    color: #6A4029;
+    font-size: 20px;
+    line-height: 25px;
+    cursor: pointer;
+}
+
+.GetStart:hover{
+    background-color: #6A4029;
+    color: white;
+}
+.Middle{
+    width: 90%;
+    padding-left: 130px;
+    margin-top: -50px;
+}
+.MenuMiddle{
+    padding: 20px;
+    background-color: white;
+    box-shadow: 1px 1px 10px #cccccc;
+    border-radius: 20px;
+    display: flex;
+    width: 100%;
+}
+.MenuMiddle p{
+    margin-left: -75px;
+    margin-top: 30px;
+}
+.Md{
+    display: flex;
+    width: 30%;
+    justify-content: space-around;
+    padding-left: 10%;
+}
+.Md strong {
+    font-size: 25px;
+}
+.Md p {
+    font-size: 20px;
+}
+.Second2{
+    display: flex;
+    justify-content: space-around;
+}
+.Second{
+    justify-content: space-around;
+    width: 100%;
+}
+.team{
+    width: 70%;
+    margin-top: 50px;
+}
+.Sright{
+    list-style: none;
+    font-size: 20px;
+    padding-top: 30px;
+    padding-left: 130px;
+    text-align: start;
+    justify-content: center;
+    display: flex;
+}
+.Sright2{
+    width: 50%;
+    min-width: 500px;
+}
+
+.Sright h1{
+    width: 80%;
+    font-size: 35px;
+    margin-left: -40px;
+}
+.Sright p{
+    margin-top: -32px;
+    max-height: 500px;
+    width: 90%;
+}
+.Sright img{
+margin-left: -40px;
+}
+.ket{
+    margin-left: -40px;
+    width: 90%;
+}
+
+.Favorite{
+    align-content: center;
+    justify-content: space-around;
+    justify-content: center;
+    padding-left: 30px;
+    display: flex;
+    overflow-x: auto;
+    padding-top: 60px;
+}
+.Favorite-card{
+    width: 60%;
+    display: flex;
+    justify-content: space-around;
+    min-width: 700px;
+}
+
+.Favorite-card .Card-f {
+    border-radius: 30px;
+    margin-top: 60px;
+    cursor: pointer;
+}
+.Favorite-card .Card-f button {
+    border-radius: 30px;
+    border: 2px solid #FFBA33;
+    background-color: white;
+    color: #6A4029;
+}
+.Favorite-card .Card-f button:hover {
+    border-radius: 30px;
+    border: 2px solid transparent;
+    background-color:#FFBA33;
+}
+.Favorite-card .Card-f .Card-g img{
+    margin-top: -70px;
+    border-radius: 100%;
+}
+.Favorite-card .Card-f:hover {
+    border: 1px solid  #6A4029;
+}
+
+.Store{
+    display: flex;
+    justify-content: space-around;
+}
+.Store2{
+    justify-content: space-around;
+    width: 70%;
+    padding-top: 60px;
+}
+.map{
+    padding-top: 60px;
+}
+.OurPartner{
+    display: flex;
+    justify-content: space-around;
+}
+.Partner{
+    justify-content: space-around;
+    width: 70%;
+}
+
+.Custumer{
+    align-content: center;
+    justify-content: space-around;
+    justify-content: center;
+    padding-left: 30px;
+    display: flex;
+    overflow-x: auto;
+    padding-top: 60px;
+}
+.Custumer-card{
+    width: 80%;
+    display: flex;
+    justify-content: space-around;
+    min-width: 700px;
+
+}
+.C-card{    
+    height: 200px;
+    cursor: pointer;
+}
+.C-card:hover{    
+   border: 1px solid #6A4029;
+}
+
+.card-f{
+    display: flex;
+}
+.test3{
+    margin-top: 10px;
+    margin-left: 190px;
+    display: flex;
+}
+.test3 img{
+   height: 15px;
+   margin-top: 5px;
+   margin-left: 10px;
+}
+.card-f-name{
+    margin-top: -55px;
+    font-size: 15px;
+    line-height: 5px;
+}
+
+.Promo{
+    padding-top: 90px;
+    display: flex;
+    justify-content: space-around;
+}
+.Promo2{
+    justify-content: space-around;
+    width: 70%;
+    background-color: white;
+    box-shadow: 1px 1px 10px #cccccc;
+    padding-left: 20px;
+    padding-top: 20px;
+    border-radius: 20px;
+    height: 200px;
+}
+
+.Promo2 h1{
+ text-align: start;
+ width: 90%;
+}
+
+.Promo2 p{
+ text-align: start;
+}
+
+.SeePromo{
+    width: 170px;
+    background: #FFBA33;
+    border-radius: 10px;
+    padding: 17px;
+    font-family: Rubik;
+    font-style: normal;
+    color: #6A4029;
+    font-size: 20px;
+    margin-top: 40px;
+    cursor: pointer; 
+}
+
+.SeePromo:hover{
+    background-color: #6A4029;
+    color: white;
+}
+
+.test{
+    background-color: #F8F8F8 !important;
+    height: 10vh;
+    margin-top: -6em;
+    color: white;
+}
+
+
+
+
+/* iphone x */
+@media screen and (max-width: 430px) {
+    .Jumbotron{
+        width: 100%;
+    }
+    .Jumbotron2 h1{
+        width: 100%;
+        text-align: start;
+    }
+    .Jumbotron2 p{
+        width: 100%;
+        text-align: start;
+    }
+    .GetStart{
+        width: 50%;
+        border-radius: 10px;
+        padding: 17px;
+    }
+    .Middle{
+        display: none;
+    }
+    .Sright{
+       display: none;
+    }
+    .Favorite{
+        padding-left: 300px;
+    }
+    .Custumer-card{
+        width: 90%;
+        display: flex;
+        justify-content: space-around;
+        min-width: 900px;
+    }
+    .test3{
+        margin-top: 10px;
+        margin-left: 150px;
+        display: flex;
+    }
+    .test3 img{
+       height: 15px;
+       margin-top: 5px;
+       margin-left: 10px;
+    }
+    .card-f-name{
+        margin-top: -55px;
+        font-size: 10px;
+        line-height: 5px;
+    }
+    .Promo{
+        display: none;
+    }
+    .test{
+        display: none;
+    }
+    
+}
