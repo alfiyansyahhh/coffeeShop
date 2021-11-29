@@ -11,8 +11,6 @@
     width: 87%;
     height: 80%;
 }
-.kiriOrder{
-}
 .kanan{
     align-items: center;
     justify-content: center;
@@ -257,8 +255,10 @@
     line-height: 30px;
     text-align: center;
     color: #FFFFFF;
-    padding-top: 20px;
     cursor: pointer;
+    width: 100%;
+    border: none;
+    align-items: center;
 }
 .submitpay:hover{
     background-color: #FFBA33;
@@ -273,7 +273,7 @@
     font-family: Poppins;
     font-style: normal;
     font-weight: bold;
-    font-size: 20px;
+    font-size: 15px;
     line-height: 30px;
     text-align: center;
 }

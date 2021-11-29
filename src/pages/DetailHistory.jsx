@@ -9,6 +9,7 @@ import {
 import transaction from '../redux/actions/transactions';
 import '../css/DetailHistory.css';
 import { useParams, useHistory } from 'react-router-dom';
+import  {numberWithCommas }from "../numberwithcomas";
 
 const DetailHistory = function () {
   const params = useParams();
@@ -30,7 +31,7 @@ const DetailHistory = function () {
       <Navbar islogin />
       <div className="bgh">
         <Col lg="6" className="title-h">
-          Let’s see what you have bought! Long press to delete item
+          Let’s see what you have bought!
         </Col>
         <Col lg="9" className="cardHistory">
 
@@ -47,7 +48,7 @@ const DetailHistory = function () {
                       <div className="Card-his-n">{e.product_name}</div>
                       <div className="Card-his-p">
                         Rp.
-                        {e.price}
+                        {numberWithCommas(e.price)}
                         {' '}
                         <b className="Card-his-q ms-3">
                           x

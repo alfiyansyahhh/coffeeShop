@@ -14,7 +14,7 @@ import Logo from '../coffee 1.png'
 import { useState } from 'react'
 import {useHistory} from 'react-router-dom'
 import user from '../redux/actions/users'
-const Google = 'https://alfiyansyahhh.skom.id/gambar/google-logo-png-suite-everything-you-need-know-about-google-newest-0 2.png'
+const Google = 'https://alfiyansyahhh.skom.id/gambar/google-logo-png-suite-everything-you-need-know-about-google-newest-0%202.png'
 
 const Login = () => {
 

@@ -7,6 +7,7 @@ import {Row, Col, Card} from 'reactstrap';
 import transaction from '../redux/actions/transactions'
 import '../css/History.css'
 import {useHistory} from 'react-router-dom'
+import  {numberWithCommas }from "../numberwithcomas";
 
 
 const History = () => {
@@ -27,7 +28,7 @@ const History = () => {
              <Navbar islogin={true} />    
              <div className="bgh">               
                 <Col lg="6" className="title-h">
-                    Let’s see what you have bought! Long press to delete item    
+                    Let’s see what you have bought!   
                 </Col>
                 <Col lg="9" className="cardHistory">
                     <Row>
@@ -38,7 +39,7 @@ const History = () => {
                                     <div className="cardhb">
                                         <div className="Card-h-i w-25" >{e.id}</div>
                                         <div>
-                                            <div className="Card-h-t" >Total: IDR {e.total}</div>
+                                            <div className="Card-h-t" >Total: IDR {numberWithCommas(e.total)}</div>
                                             <div className="Card-h-p">Delivered To {e.penerima}</div> 
                                         </div>   
                                     </div>                            

@@ -53,6 +53,21 @@ const user = {
                 })
             })
         }
+    },
+    ACTION_UPDATE_USER : (data, id) => {
+        const token = localStorage.getItem('token')
+        const headers = {
+            "Content-Type" : "multipart/from-data",
+            token
+        }
+        return new Promise ((resolve, reject) => {
+            axios.put(`${Get.API_URL}/users/${id}`, data, { headers } )
+            .then((response) => {
+                resolve(response.data)
+            }).catch((err) => {
+                reject(err)
+            })
+        })
     }
 }
 

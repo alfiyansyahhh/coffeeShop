@@ -40,9 +40,6 @@ const Edit = () => {
         ket: Detailproduct.ket
         })
 
-
-    console.log(edit)
-    console.log(Detailproduct.categoryID)
      useEffect(() => {
          setEdit({
             image: ' ',

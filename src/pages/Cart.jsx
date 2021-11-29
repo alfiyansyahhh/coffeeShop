@@ -182,6 +182,7 @@ const Cart = function () {
                         value={data.penerima}
                         name="penerima"
                         disabled={disabled}
+                        placeholder="penerima"
                       />
                       {' '}
                       Street
@@ -193,6 +194,7 @@ const Cart = function () {
                         value={data.alamat}
                         name="alamat"
                         disabled={disabled}
+                        placeholder="alamat penerima"
                       />
                     </CardText>
                     <CardText>
@@ -202,6 +204,7 @@ const Cart = function () {
                         value={data.phone_number}
                         name="phone_number"
                         disabled={disabled}
+                        placeholder="phone number"
                       />
                     </CardText>
                   </Card>

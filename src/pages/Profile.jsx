@@ -37,6 +37,54 @@ const Profile = function () {
   useEffect(() => {
     dispatch(user.ACTION_GET_USER_DETAIL(id));
   }, []);
+    
+  const [edit, setEdit] = useState({
+    picture: ' ',
+    imagePriview: `${process.env.REACT_APP_API_URL}/${Datauser.picture}`,
+    display_name: Datauser.display_name,
+    first_name: Datauser.first_name,
+    last_name:Datauser.last_name,
+    ttgl:Datauser.ttgl,
+    email_address:Datauser.email_address,
+    phone_number:Datauser.phone_number,
+    delivery_address:Datauser.delivery_address
+  })
+
+  const insertData = (e) => {
+    setEdit({
+        ...edit,
+        [e.target.name]: e.target.value
+    })
+  }
+
+  const insertFile = (e) => {
+    setEdit({
+        ...edit,
+        picture: e.target.files[0],
+        imagePriview: URL.createObjectURL(e.target.files[0])
+    })
+  }
+
+  console.log(edit)
+  const updateUser = (e) => {
+      e.preventDefault();
+      const formData = new FormData()
+      formData.append("picture", edit.picture)
+      formData.append("display_name", edit.display_name)
+      formData.append("first_name", edit.first_name)
+      formData.append("last_name", edit.last_name)
+      formData.append("ttgl", edit.ttgl)
+      formData.append("email_address", edit.email_address)
+      formData.append("phone_number", edit.phone_number)
+      formData.append("delivery_address", edit.delivery_address)
+     
+      user.ACTION_UPDATE_USER(formData, id).then((response) => {
+          alert("succes")
+      }).catch((err) => {
+          alert('gagal')
+          console.log(err)
+      })
+  }
 
   return (
     <div>
@@ -46,14 +94,16 @@ const Profile = function () {
         <Row className="pr">
           <Col lg="4">
             <Card className="card-profile">
-              {Datauser.picture === '' ? (
-                <img className="pprofile" src={defaultg} />
-              ) : (
-                <img className="pprofile" src={`${process.env.REACT_APP_API_URL}/${Datauser.picture}`} />
-              )}
-
-              <img className="pen" src={pen} />
-              <p className="displayName">{Datauser.display_name}</p>
+                <form>
+                    <img className="pprofile" src={edit.imagePriview} />          
+                    <input 
+                    onChange={insertFile}
+                    type="file"
+                    name="image"
+                    id="file"
+                    />
+                </form>           
+              <p className="displayName">{edit.display_name}</p>
             </Card>
           </Col>
           <Col lg="8">
@@ -69,8 +119,9 @@ const Profile = function () {
                     Email address :
                     <input
                       className="constactsp"
-                      value={Datauser.email_address}
-                      name="alamat"
+                      onChange={insertData}
+                      value={edit.email_address}
+                      name="email_address"
                       disabled={disabledc}
                     />
                   </p>
@@ -80,8 +131,9 @@ const Profile = function () {
                     Mobile number :
                     <input
                       className="constactsp"
-                      value={Datauser.phone_number}
-                      name="alamat"
+                      onChange={insertData}
+                      value={edit.phone_number}
+                      name="phone_number"
                       disabled={disabledc}
                     />
                   </p>
@@ -91,8 +143,9 @@ const Profile = function () {
                     Delivery adress :
                     <input
                       className="constactsp"
-                      value={Datauser.delivery_address}
-                      name="alamat"
+                      value={edit.delivery_address}
+                      onChange={insertData}
+                      name="delivery_address"
                       disabled={disabledc}
                     />
                   </p>
@@ -112,8 +165,9 @@ const Profile = function () {
                     Display Name :
                     <input
                       className="constactsp"
-                      value={Datauser.display_name}
-                      name="alamat"
+                      onChange={insertData} 
+                      value={edit.display_name}
+                      name="display_name"
                       disabled={disabledd}
                     />
                   </p>
@@ -123,8 +177,9 @@ const Profile = function () {
                     DD/MM/YY :
                     <input
                       className="constactsp"
-                      value={Datauser.ttgl}
-                      name="alamat"
+                      value={edit.ttgl}
+                      onChange={insertData} 
+                      name="ttgl"
                       disabled={disabledd}
                     />
                   </p>
@@ -134,8 +189,9 @@ const Profile = function () {
                     First Name :
                     <input
                       className="constactsp"
-                      value={Datauser.first_name}
-                      name="alamat"
+                      value={edit.first_name}
+                      onChange={insertData} 
+                      name="first_name"
                       disabled={disabledd}
                     />
                   </p>
@@ -169,8 +225,9 @@ const Profile = function () {
                     Last Name:
                     <input
                       className="constactsp"
-                      value={Datauser.last_name}
-                      name="alamat"
+                      value={edit.last_name}
+                      onChange={insertData} 
+                      name="last_name"
                       disabled={disabledd}
                     />
                   </p>
@@ -181,13 +238,13 @@ const Profile = function () {
 
           </Col>
           <Col lg="4">
-            <div className="tombol">
+            <form className="tombol" onSubmit={updateUser}>
               <b className="titles">Do you want to save the change?</b>
-              <div className="save">Save Change</div>
+              <button type="submit" className="save">Save Change</button>
               <div className="cancel">cancel</div>
               <div className="edit2">Edit password</div>
               <div className="logout" onClick={logout}>Logout</div>
-            </div>
+            </form>
           </Col>
         </Row>
       </div>
