@@ -1,4 +1,4 @@
- [Demo](https://fecoffee.herokuapp.com/) - [Backend](https://github.com/alfiyansyahhh/backend-coffeeShop) 
+ [Demo](https://coffee-shop-zeta.vercel.app/) - [Backend](https://github.com/alfiyansyahhh/backend-coffeeShop) 
 
 
 <!-- TABLE OF CONTENTS -->
